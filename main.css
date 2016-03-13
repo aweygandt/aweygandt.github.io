@@ -1,0 +1,157 @@
+body{
+  /* comment */
+  background-color: #2d5b86; /*  #004d99 #004080 #2d5b86 003366 */
+}
+#Header{
+  /* background-image: url("Xbox.jpg")  no-repeat top center;; */
+  padding-top: 0px;
+  margin-top: -10%;
+}
+
+#Name{
+  /* change to em? */
+  margin-top: 70px;
+}
+#Name h1{ /* font wont change for some reason */
+  color: white;
+  text-align: center;
+  /* font-family: 'Arial'; */
+  font-family: Century Gothic, sans-serif;
+  /* font-family: 'Century Gothic'; */
+  font-size: 48px;
+}
+
+#About{
+  text-align: center;
+}
+#About h3{
+  margin-left: 0px;
+  font-size: 36px;
+  color: white;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+#About p{
+  margin-left: 0px;
+  color: white;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+
+#Experience{
+  text-align: center;
+}
+#Experience h3{
+  margin-left: 0px;
+  font-size: 36px;
+  color: white;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+#Experience h4{
+  margin-left: 0px;
+  color: white;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+#Experience p{
+  margin-left: 10px;
+  color: white;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+
+#Hobbies{
+  text-align: center;
+}
+#Hobbies h3{
+  margin-left: 0px;
+  font-size: 36px;
+  color: white;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+#Hobbies p{
+  margin-left: 0px;
+  color: white;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+
+#Resume{
+  text-align:center;
+}
+#Resume h3{
+  font-size: 36px;
+  color: white;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+#Resume p{
+  margin-left: 10px;
+  margin-bottom: 15px;
+  color: white;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+
+#Contact{
+  text-align:center;
+}
+#Contact h3{
+  font-size: 36px;
+  color: white;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+#Contact p{
+  color: white;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+span.glyphicon-send {
+    font-size: 2.0em;
+}
+
+img[src="copied.jpg"]{ /* face */
+  /* #selfie img { css }   targets all images in selfie*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*border-radius: 50%;*/
+}
+img { /* resize xbox with browser */
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+h2{
+  /* text-align: justify; */
+  color: white;
+  text-align: center;
+  font-family: 'Arial';
+  /* font-family: 'Century Gothic'; */
+  font-size: 24px;
+}
+.jumbotron{
+  text-align:center;
+}
+.jumbotron h2{
+  color: black;
+}
+#Twitch{
+  text-align: left;
+  color: white;
+  font-family: 'Arial';
+  font-size: 18px;
+  display:inline-block;
+  margin-left:20px;
+  margin-right:20px;
+  margin-bottom:20px;
+}
+#LinkedIn{
+  text-align: left;
+  color: white;
+  font-family: 'Arial';
+  font-size: 18px;
+  display:inline-block;
+  margin-right:20px;
+  margin-bottom:20px;
+}
+#header {
+  /* image: 1920 x 1275 */
+
+  background: url(https://analogaddiction.files.wordpress.com/2013/10/destiny-concept-art-4.jpg) no-repeat top center;
+  margin-top: -320px;
+  margin-left: -8px;
+  height: 815px;
+}
