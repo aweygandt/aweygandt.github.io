@@ -1,18 +1,19 @@
 body{
-  /* comment */
+  /* --- */
   background-color: #2d5b86; /*  #004d99 #004080 #2d5b86 003366 */
 }
 #Header{
-  /* background-image: url("Xbox.jpg")  no-repeat top center;; */
   padding-top: 0px;
   margin-top: -10%;
+}
+#Header img{
 }
 
 #Name{
   /* change to em? */
   margin-top: 70px;
 }
-#Name h1{ /* font wont change for some reason */
+#Name h1{
   color: white;
   text-align: center;
   /* font-family: 'Arial'; */
@@ -34,6 +35,9 @@ body{
   margin-left: 0px;
   color: white;
   font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+#jAbout{
+  /*background-color: #2d5b86;*/
 }
 
 #Experience{
@@ -109,7 +113,7 @@ img[src="copied.jpg"]{ /* face */
   margin-right: auto;
   /*border-radius: 50%;*/
 }
-img { /* resize xbox with browser */
+img { /* resize with browser */
     max-width: 100%;
     height: auto;
     width: auto\9; /* ie8 */
@@ -128,7 +132,7 @@ h2{
 .jumbotron h2{
   color: black;
 }
-#Twitch{
+/*#Twitch{
   text-align: left;
   color: white;
   font-family: 'Arial';
@@ -137,21 +141,14 @@ h2{
   margin-left:20px;
   margin-right:20px;
   margin-bottom:20px;
-}
+}*/
 #LinkedIn{
   text-align: left;
   color: white;
   font-family: 'Arial';
   font-size: 18px;
   display:inline-block;
+  margin-left:20px;
   margin-right:20px;
   margin-bottom:20px;
-}
-#header {
-  /* image: 1920 x 1275 */
-
-  background: url(https://analogaddiction.files.wordpress.com/2013/10/destiny-concept-art-4.jpg) no-repeat top center;
-  margin-top: -320px;
-  margin-left: -8px;
-  height: 815px;
 }
