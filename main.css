@@ -2,9 +2,44 @@ body{
   /* --- */
   background-color: #2d5b86; /*  #004d99 #004080 #2d5b86 003366 */
 }
+
+#Beach{
+  margin-top: 50px;
+  min-height: 600px;
+  height: 900px;
+  position: relative;
+  background: url("Beach2.jpg") center center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+}
+#Beach h1{
+  color: white;
+  text-align: center;
+  font-family: Century Gothic, sans-serif;
+  font-size: 60px;
+}
+#Beach h2{
+  color: white;
+  text-align: center;
+  font-family: Century Gothic, sans-serif;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  font-size: 42px;
+}
+#selfie{
+  border-radius: 50%;
+}
+
+.blur{
+  height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
 #Header{
-  padding-top: 0px;
-  margin-top: -10%;
+  /*padding-top: 0px;
+  margin-top: -10%;*/
 }
 #Header img{
 }
@@ -23,6 +58,7 @@ body{
 }
 
 #About{
+  margin-top: 50px;
   text-align: center;
 }
 #About h3{
@@ -33,6 +69,7 @@ body{
 }
 #About p{
   margin-left: 0px;
+  font-size: 16px;
   color: white;
   font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
@@ -76,6 +113,7 @@ body{
 }
 
 #Resume{
+  margin-bottom: 50px;
   text-align:center;
 }
 #Resume h3{
@@ -86,6 +124,7 @@ body{
 #Resume p{
   margin-left: 10px;
   margin-bottom: 15px;
+  font-size: 16px;
   color: white;
   font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
@@ -95,11 +134,11 @@ body{
 }
 #Contact h3{
   font-size: 36px;
-  color: white;
+  color: black;
   font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
 #Contact p{
-  color: white;
+  color: black;
   font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
 span.glyphicon-send {
