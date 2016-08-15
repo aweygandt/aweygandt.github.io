@@ -4,7 +4,7 @@ body{
 }
 
 #Beach{
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   min-height: 600px;
   height: 900px;
   position: relative;
